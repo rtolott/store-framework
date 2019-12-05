@@ -23,12 +23,12 @@
 
   "flex-layout.col#right": {
     "props": {
-      "textAlignment": "center",
-      "textPosition": "center"
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
     },
     "children": [
-      "product-price",
       "product-name",
+      "product-price",
       "buy-button"
     ]
   },
